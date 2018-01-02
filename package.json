@@ -1,0 +1,43 @@
+{
+    "name": "solarized-next",
+    "displayName": "Solarized Next",
+    "description": "A dark solarized theme based on braver-solarized. Workbench styles included.",
+    "version": "1.0.0",
+    "publisher": "quantumkv",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "galleryBanner": {
+        "color": "#002B36",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "solarized",
+        "theme",
+        "dark",
+        "next",
+        "workbench"
+    ],
+    "icon": "icon.png",
+    "bugs": {
+        "url": "https://github.com/quantumkv/solarized-next/issues"
+    },
+    "homepage": "https://github.com/quantumkv/solarized-next",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/quantumkv/solarized-next"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Next",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Solarized Next-color-theme.json"
+            }
+        ]
+    }
+}
