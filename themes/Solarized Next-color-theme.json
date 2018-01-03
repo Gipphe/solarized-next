@@ -877,9 +877,9 @@
         "badge.background": "#047aa6",
         "progressBar.background": "#047aa6",
         "dropdown.background": "#00212B",
-        "dropdown.border": "#d33682",
+        "dropdown.border": "#dc322f",
         "dropdown.foreground": "#839496",
-        "button.background": "#d33682",
+        "button.background": "#dc322f",
         "button.foreground": "#839496",
         "list.activeSelectionBackground": "#005A6F",
         "list.activeSelectionForeground": "#839496",
@@ -900,12 +900,12 @@
         "editor.lineHighlightBackground": "#ffffff10",
         "editor.selectionBackground": "#93A1A145",
         "editorWidget.background": "#00212B",
-        "editorCursor.foreground": "#d33682",
+        "editorCursor.foreground": "#dc322f",
         "editorHoverWidget.background": "#004052",
         "editorLineNumber.foreground": "#586e75",
-        "editorMarkerNavigationError.background": "#d33682",
+        "editorMarkerNavigationError.background": "#dc322f",
         "editorMarkerNavigationWarning.background": "#5B7E7A",
-        "editorLink.activeForeground": "#d33682",
+        "editorLink.activeForeground": "#dc322f",
         // Editor: Suggest
         // "editorSuggestWidget.background": "",
         // "editorSuggestWidget.border": "",
@@ -932,19 +932,19 @@
         "editorGroupHeader.tabsBorder": "#003847",
         // Workbench: Tabs
         "tab.activeForeground": "#eee8d5",
-        "tab.activeBackground": "#002b36",
-        "tab.activeBorder": "#d33682",
-        "tab.unfocusedActiveBorder": "#d3368250",
+        "tab.activeBackground": "#003847",
+        "tab.activeBorder": "#dc322f",
+        "tab.unfocusedActiveBorder": "#dc322f50",
         "tab.inactiveForeground": "#93A1A1",
         "tab.inactiveBackground": "#00212B",
         "tab.border": "#00384700",
         // Workbench: Activity Bar
         "activityBar.background": "#002b36",
         "activityBar.border": "#003847",
-        "activityBarBadge.background": "#d33682",
+        "activityBarBadge.background": "#dc322f",
         // Workbench: Panel
         "panel.border": "#00212B",
-        "panelTitle.activeBorder": "#d33682",
+        "panelTitle.activeBorder": "#dc322f",
         // Workbench: Side Bar
         "sideBar.background": "#00212B",
         "sideBarTitle.foreground": "#93A1A1",
@@ -969,8 +969,8 @@
         "notification.background": "#003847",
         "notification.foreground": "#839496",
         // Workbench: Quick Open
-        "pickerGroup.foreground": "#d33682",
-        "pickerGroup.border": "#d3368299",
+        "pickerGroup.foreground": "#dc322f",
+        "pickerGroup.border": "#dc322f99",
         // Workbench: Terminal
         // Colors sourced from the official palette http://ethanschoonover.com/solarized
         "terminal.ansiBlack": "#073642",
