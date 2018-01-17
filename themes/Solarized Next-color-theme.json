@@ -3,7 +3,7 @@
     "tokenColors": [
         {
             "settings": {
-                "background": "#002b36",
+                //"background": "#002b36",
                 "foreground": "#839496",
                 "gutter": "#073642",
                 "misspelling": "#dc322f",
@@ -261,7 +261,7 @@
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
-                "background": "#6e2e32"
+                //"background": "#6e2e32"
             }
         },
         {
@@ -723,14 +723,14 @@
             "Name": "Markdown linebreak",
             "scope": "meta.paragraph.markdown meta.dummy.line-break",
             "settings": {
-                "background": "#586e75"
+                //"background": "#586e75"
             }
         },
         {
             "name": "SublimeLinter Annotations",
             "scope": "sublimelinter.notes",
             "settings": {
-                "background": "#586e75",
+                //"background": "#586e75",
                 "foreground": "#586e75"
             }
         },
@@ -738,7 +738,7 @@
             "name": "SublimeLinter Error Outline",
             "scope": "sublimelinter.outline.illegal",
             "settings": {
-                "background": "#586e75",
+                //"background": "#586e75",
                 "foreground": "#586e75"
             }
         },
@@ -746,14 +746,14 @@
             "name": "SublimeLinter Error Underline",
             "scope": "sublimelinter.underline.illegal",
             "settings": {
-                "background": "#dc322f"
+                //"background": "#dc322f"
             }
         },
         {
             "name": "SublimeLinter Warning Outline",
             "scope": "sublimelinter.outline.warning",
             "settings": {
-                "background": "#839496",
+                //"background": "#839496",
                 "foreground": "#839496"
             }
         },
@@ -761,14 +761,14 @@
             "name": "SublimeLinter Warning Underline",
             "scope": "sublimelinter.underline.warning",
             "settings": {
-                "background": "#b58900"
+                //"background": "#b58900"
             }
         },
         {
             "name": "SublimeLinter Violation Outline",
             "scope": "sublimelinter.outline.violation",
             "settings": {
-                "background": "#657b83",
+                //"background": "#657b83",
                 "foreground": "#657b83"
             }
         },
@@ -776,7 +776,7 @@
             "name": "SublimeLinter Violation Underline",
             "scope": "sublimelinter.underline.violation",
             "settings": {
-                "background": "#cb4b16"
+                //"background": "#cb4b16"
             }
         },
         {
@@ -924,7 +924,6 @@
         "titleBar.activeBackground": "#002b36",
         "titleBar.inactiveForeground": "#b2b2b3",
         "titleBar.inactiveBackground": "#f6f6f6",
-        "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
         // Workbench: Editors
         "editorGroup.border": "#00212B",
         "editorGroup.background": "#011b23",
