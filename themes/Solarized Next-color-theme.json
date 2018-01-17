@@ -874,13 +874,14 @@
         "inputValidation.errorBackground": "#571b26",
         "inputValidation.errorBorder": "#a92049",
         "errorForeground": "#ffeaea",
-        "badge.background": "#047aa6",
+        "badge.background": "#dc322f",
+        "badge.foreground": "#eee8d5",
         "progressBar.background": "#047aa6",
         "dropdown.background": "#00212B",
         "dropdown.border": "#dc322f",
         "dropdown.foreground": "#839496",
         "button.background": "#dc322f",
-        "button.foreground": "#839496",
+        "button.foreground": "#eee8d5",
         "list.activeSelectionBackground": "#005A6F",
         "list.activeSelectionForeground": "#839496",
         "list.focusBackground": "#005A6F",
@@ -968,9 +969,17 @@
         // Workbench: Notifications
         "notification.background": "#003847",
         "notification.foreground": "#839496",
+        "notification.buttonBackground": "#dc322f",
+        "notification.buttonForeground": "#eee8d5",
         // Workbench: Quick Open
         "pickerGroup.foreground": "#dc322f",
         "pickerGroup.border": "#dc322f99",
+        // Workbench: Git Decoration Colors
+        "gitDecoration.modifiedResourceForeground": "#859900",
+        "gitDecoration.deletedResourceForeground": "#dc322f",
+        "gitDecoration.untrackedResourceForeground": "#2aa198",
+        "gitDecoration.ignoredResourceForeground": "#dc322f",
+        "gitDecoration.conflictingResourceForeground": "#839496",
         // Workbench: Terminal
         // Colors sourced from the official palette http://ethanschoonover.com/solarized
         "terminal.ansiBlack": "#073642",
