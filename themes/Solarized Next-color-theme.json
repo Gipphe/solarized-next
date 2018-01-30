@@ -14,9 +14,16 @@
             "name": "Comment",
             "scope": [
                 "comment",
+                "comment keyword",
+                "comment markup.underline.link",
+                "comment string",
+                "comment punctuation.definition",
+                "comment punctuation",
+                "comment text",
                 "meta.documentation"
             ],
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#586e75"
             }
         },
@@ -64,8 +71,14 @@
         },
         {
             "name": "Variable Language",
-            "scope": "variable.language",
+            "scope": [
+                "variable.parameter",
+                "parameters variable.function",
+                "variable.language",
+                "variable.parameter.function.language.special.self.python"
+            ],
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#cb4b16"
             }
         },
@@ -112,6 +125,7 @@
             "name": "Storage modifier",
             "scope": "storage.modifier",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#93a1a1"
             }
         },
@@ -131,6 +145,7 @@
             "name": "Inherited Class",
             "scope": "entity.other.inherited-class",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#268bd2"
             }
         },
@@ -138,6 +153,7 @@
             "name": "Attribute",
             "scope": "entity.other.attribute-name",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#b58900"
             }
         },
@@ -240,6 +256,7 @@
             "name": "Storage Type",
             "scope": "storage.type",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#268bd2"
             }
         },
@@ -261,6 +278,7 @@
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
+                "fontStyle": "italic"
                 //"background": "#6e2e32"
             }
         },
@@ -338,6 +356,7 @@
             "name": "CSS .class",
             "scope": "entity.other.attribute-name.class",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#b58900"
             }
         },
@@ -345,6 +364,7 @@
             "name": "CSS: #id",
             "scope": "entity.other.attribute-name.id",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#b58900"
             }
         },
@@ -357,6 +377,7 @@
                 "entity.other.attribute-name.tag.pseudo-class"
             ],
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#268bd2"
             }
         },
@@ -382,6 +403,7 @@
                 "meta.tag.xml entity.other.attribute-name"
             ],
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#b58900"
             }
         },
@@ -489,6 +511,7 @@
             "name": "Tex: {var}",
             "scope": "variable.parameter.function.latex",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#cb4b16"
             }
         },
@@ -542,6 +565,7 @@
             "name": "Tex: \\label { }",
             "scope": "variable.parameter.definition.label.latex",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#dc322f"
             }
         },
@@ -581,6 +605,7 @@
                 "storage.modifier.global.python"
             ],
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#859900"
             }
         },
@@ -622,6 +647,7 @@
             "name": "Storage",
             "scope": "storage.modifier.c++",
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#859900"
             }
         },
