@@ -14,15 +14,7 @@ A dark solarized theme based on braver-solarized. Workbench styles included.
 
 #### Typescript/Javascript
 
-![Preview](https://raw.githubusercontent.com/quantumkv/solarized-next/master/screenshots/screen3.png)
-
-#### SCSS/CSS/LESS
-
 ![Preview](https://raw.githubusercontent.com/quantumkv/solarized-next/master/screenshots/screen1.png)
-
-#### REACT
-
-![Preview](https://raw.githubusercontent.com/quantumkv/solarized-next/master/screenshots/screen2.png)
 
 ## Credits
 - [Solarized Color Palatte](http://ethanschoonover.com/solarized)
