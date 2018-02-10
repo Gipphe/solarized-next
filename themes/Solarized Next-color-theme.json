@@ -964,6 +964,10 @@
         "tab.inactiveForeground": "#93A1A1",
         "tab.inactiveBackground": "#00212B",
         "tab.border": "#00384700",
+        "tab.hoverBackground": "#002b36",
+        "tab.unfocusedHoverBackground": "#002b36",
+        "tab.hoverBorder": "#dc322f",
+        "tab.unfocusedHoverBorder": "#dc322f",
         // Workbench: Activity Bar
         "activityBar.background": "#002b36",
         "activityBar.border": "#003847",
