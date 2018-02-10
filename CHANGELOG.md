@@ -3,6 +3,9 @@ All notable changes to the "solarized-next" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.3.1]
+- Added support for tab hover colors from January Release.
+
 ## [1.3.0]
 - Added italic font support.
 - Updated Screenshots.
