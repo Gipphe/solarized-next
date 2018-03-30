@@ -925,6 +925,7 @@
         "editorWhitespace.foreground": "#586e7534",
         "editorRuler.foreground": "#ffffff25",
         "editor.lineHighlightBackground": "#ffffff10",
+        "editorActiveLineNumber.foreground": "#eee8d5",
         "editor.selectionBackground": "#93A1A145",
         "editorWidget.background": "#00212B",
         "editorCursor.foreground": "#dc322f",
