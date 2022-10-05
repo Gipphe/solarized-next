@@ -3,30 +3,34 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "comment": {
-            "italic": true,
-            "foreground": "#586e75"
+            "foreground": "#586e75",
+            "fontStyle": "italic"
         },
         "string": "#2aa198",
         "regexp": "#2aa198",
         "number": "#6c71c4",
         "parameter": {
-            "italic": true,
-            "foreground": "#cb4b16"
+            "foreground": "#cb4b16",
+            "fontStyle": "italic"
         },
         "variable": "#268bd2",
         "keyword": "#859900",
         "function": "#b58900",
         "typeParameter": {
             "foreground": "#cb4b16",
-            "italic": true
+            "fontStyle": "italic"
         },
         "interface": "#859900",
         "interface.defaultLibrary": {
             "foreground": "#268bd2",
-            "italic": true
+            "fontStyle": "italic"
+        },
+        "property": "#839496",
+        "namespace": {
+            "foreground": "#839496",
+            "fontStyle": "italic"
         },
         "type": "#268bd2"
-
     },
     "tokenColors": [
         {
