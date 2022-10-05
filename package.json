@@ -1,44 +1,51 @@
 {
-    "name": "solarized-next",
-    "displayName": "Solarized Next+",
-    "description": "A dark solarized theme based on braver-solarized. Workbench styles included.",
-    "version": "1.3.2",
-    "publisher": "Gipphe",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.17.0"
-    },
-    "galleryBanner": {
-        "color": "#002B36",
-        "theme": "dark"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "solarized",
-        "theme",
-        "dark",
-        "next",
-        "italic",
-        "workbench"
-    ],
-    "icon": "icon.png",
-    "bugs": {
-        "url": "https://github.com/Gipphe/solarized-next/issues"
-    },
-    "homepage": "https://github.com/Gipphe/solarized-next",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Gipphe/solarized-next"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Solarized Next+",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Solarized Next-color-theme.json"
-            }
-        ]
-    }
+  "name": "solarized-next-plus",
+  "displayName": "Solarized Next+",
+  "description": "A dark solarized theme based on braver-solarized. Workbench styles included.",
+  "version": "1.3.2",
+  "publisher": "Gipphe",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "galleryBanner": {
+    "color": "#002B36",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "solarized",
+    "theme",
+    "dark",
+    "next",
+    "italic",
+    "workbench"
+  ],
+  "icon": "icon.png",
+  "bugs": {
+    "url": "https://github.com/Gipphe/solarized-next/issues"
+  },
+  "homepage": "https://github.com/Gipphe/solarized-next",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gipphe/solarized-next"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Next+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized Next-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.11.0"
+  }
 }
