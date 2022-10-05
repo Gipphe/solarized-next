@@ -1,5 +1,7 @@
 # Solarized Next
 
+_Forked from [quantumkv's Solarized Next](https://github.com/quantumkv/solarized-next)_
+
 A dark solarized theme based on braver-solarized. Workbench styles included.
 
 ## Installation
@@ -17,9 +19,11 @@ A dark solarized theme based on braver-solarized. Workbench styles included.
 ![Preview](https://raw.githubusercontent.com/quantumkv/solarized-next/master/screenshots/screen1.png)
 
 ## Credits
+
 - [Solarized Color Palatte](http://ethanschoonover.com/solarized)
 - [Braver's Solarized for Sublime Text](https://github.com/braver/Solarized)
 
 ## Issues?
+
 Found Any Issues? Would like to make some suggestions? Or contribute some code changes?
 Then head over to the github repo.
