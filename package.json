@@ -25,17 +25,17 @@
     ],
     "icon": "icon.png",
     "bugs": {
-        "url": "https://github.com/quantumkv/solarized-next/issues"
+        "url": "https://github.com/Gipphe/solarized-next/issues"
     },
-    "homepage": "https://github.com/quantumkv/solarized-next",
+    "homepage": "https://github.com/Gipphe/solarized-next",
     "repository": {
         "type": "git",
-        "url": "https://github.com/quantumkv/solarized-next"
+        "url": "https://github.com/Gipphe/solarized-next"
     },
     "contributes": {
         "themes": [
             {
-                "label": "Solarized Next",
+                "label": "Solarized Next+",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Solarized Next-color-theme.json"
             }
