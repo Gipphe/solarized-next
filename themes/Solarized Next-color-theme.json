@@ -37,13 +37,17 @@
         },
         {
             "name": "Regexp",
-            "scope": "string.regexp",
+            "scope": [
+                "regexp",
+                "string.regexp"
+            ],
             "settings": {
                 "foreground": "#2aa198"
             }
         },
         {
             "name": "Escape \\ char",
+            // Does not work with semantic highlighting yet.
             "scope": "constant.character.escape",
             "settings": {
                 "foreground": "#dc322f"
@@ -51,7 +55,10 @@
         },
         {
             "name": "Number",
-            "scope": "constant.numeric",
+            "scope": [
+                "number",
+                "constant.numeric"
+            ],
             "settings": {
                 "foreground": "#6c71c4"
             }
@@ -126,6 +133,7 @@
         {
             "name": "Class",
             "scope": [
+                "class",
                 "keyword.control.class",
                 "entity.name",
                 "entity.name.class",
@@ -154,6 +162,8 @@
         {
             "name": "Library class",
             "scope": [
+                "class.defaultLibrary",
+                "type.defaultLibrary",
                 "support",
                 "support.type",
                 "support.class"
@@ -165,6 +175,7 @@
         {
             "name": "Function name",
             "scope": [
+                "function",
                 "entity.name.function",
                 "variable.function",
                 "meta.block-level"
@@ -183,6 +194,7 @@
         {
             "name": "Built-in constant",
             "scope": [
+                "variable.readonly.defaultLibrary",
                 "constant",
                 "constant.language",
                 "meta.preprocessor"
@@ -192,7 +204,7 @@
             }
         },
         {
-            "Name": "Section heading",
+            "name": "Section heading",
             "scope": "entity.name.section",
             "settings": {
                 "foreground": "#cb4b16"
@@ -211,6 +223,8 @@
         {
             "name": "User-defined constant",
             "scope": [
+                "variable.readonly",
+                "variable.other.constant",
                 "constant.character",
                 "constant.other"
             ],
@@ -238,7 +252,10 @@
         },
         {
             "name": "Library function",
-            "scope": "support.function",
+            "scope": [
+                "function.defaultLibrary",
+                "support.function",
+            ],
             "settings": {
                 "foreground": "#859900"
             }
@@ -252,7 +269,9 @@
         },
         {
             "name": "Storage Type",
-            "scope": "storage.type",
+            "scope": [
+                "storage.type"
+            ],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#268bd2"
@@ -695,7 +714,7 @@
             }
         },
         {
-            "Name": "Markdown heading",
+            "name": "Markdown heading",
             "scope": [
                 "markup.heading",
                 "punctuation.definition.heading.markdown"
@@ -720,14 +739,14 @@
             }
         },
         {
-            "Name": "Markdown strong",
+            "name": "Markdown strong",
             "scope": "markup.bold",
             "settings": {
                 "fontStyle": "bold"
             }
         },
         {
-            "Name": "Markdown reference",
+            "name": "Markdown reference",
             "scope": [
                 "markup.underline.link.markdown",
                 "meta.link.reference constant.other.reference.link.markdown"
@@ -737,14 +756,14 @@
             }
         },
         {
-            "Name": "Markdown reference list",
+            "name": "Markdown reference list",
             "scope": "constant.other.reference.link.markdown",
             "settings": {
                 "foreground": "#6c71c4"
             }
         },
         {
-            "Name": "Markdown linebreak",
+            "name": "Markdown linebreak",
             "scope": "meta.paragraph.markdown meta.dummy.line-break",
             "settings": {
                 //"background": "#586e75"
@@ -923,7 +942,7 @@
         "editorWhitespace.foreground": "#586e7534",
         "editorRuler.foreground": "#ffffff25",
         "editor.lineHighlightBackground": "#ffffff10",
-        "editorActiveLineNumber.foreground": "#eee8d5",
+        "editorLineNumber.activeForeground": "#eee8d5",
         "editor.selectionBackground": "#93A1A145",
         "editorWidget.background": "#00212B",
         "editorCursor.foreground": "#dc322f",
