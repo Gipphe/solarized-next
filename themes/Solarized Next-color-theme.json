@@ -127,6 +127,7 @@
         {
             "name": "Arithmetical, Assignment, Comparision Operators",
             "scope": [
+                "keyword.operator",
                 "keyword.operator.comparison",
                 "keyword.operator.assignment",
                 "keyword.operator.arithmetic"
@@ -151,6 +152,15 @@
             }
         },
         {
+            "name": "Namespace",
+            "scope": [
+                "entity.name.namespace"
+            ],
+            "settings": {
+                "foreground": "#839496"
+            }
+        },
+        {
             "name": "Class",
             "scope": [
                 "keyword.control.class",
@@ -160,6 +170,16 @@
             ],
             "settings": {
                 "foreground": "#b58900"
+            }
+        },
+        {
+            "name": "Type parameter",
+            "scope": [
+                "entity.name.type.parameter"
+            ],
+            "settings": {
+                "foreground": "#cb4b16",
+                "fontStyle": "italic"
             }
         },
         {
@@ -219,7 +239,7 @@
             }
         },
         {
-            "Name": "Section heading",
+            "name": "Section heading",
             "scope": "entity.name.section",
             "settings": {
                 "foreground": "#cb4b16"
@@ -722,7 +742,7 @@
             }
         },
         {
-            "Name": "Markdown heading",
+            "name": "Markdown heading",
             "scope": [
                 "markup.heading",
                 "punctuation.definition.heading.markdown"
@@ -747,14 +767,14 @@
             }
         },
         {
-            "Name": "Markdown strong",
+            "name": "Markdown strong",
             "scope": "markup.bold",
             "settings": {
                 "fontStyle": "bold"
             }
         },
         {
-            "Name": "Markdown reference",
+            "name": "Markdown reference",
             "scope": [
                 "markup.underline.link.markdown",
                 "meta.link.reference constant.other.reference.link.markdown"
@@ -764,14 +784,14 @@
             }
         },
         {
-            "Name": "Markdown reference list",
+            "name": "Markdown reference list",
             "scope": "constant.other.reference.link.markdown",
             "settings": {
                 "foreground": "#6c71c4"
             }
         },
         {
-            "Name": "Markdown linebreak",
+            "name": "Markdown linebreak",
             "scope": "meta.paragraph.markdown meta.dummy.line-break",
             "settings": {
                 //"background": "#586e75"
