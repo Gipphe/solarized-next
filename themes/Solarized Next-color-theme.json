@@ -1,6 +1,33 @@
 {
     "name": "Solarized Next",
     "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "comment": {
+            "italic": true,
+            "foreground": "#586e75"
+        },
+        "string": "#2aa198",
+        "regexp": "#2aa198",
+        "number": "#6c71c4",
+        "parameter": {
+            "italic": true,
+            "foreground": "#cb4b16"
+        },
+        "variable": "#268bd2",
+        "keyword": "#859900",
+        "function": "#b58900",
+        "typeParameter": {
+            "foreground": "#cb4b16",
+            "italic": true
+        },
+        "interface": "#859900",
+        "interface.defaultLibrary": {
+            "foreground": "#268bd2",
+            "italic": true
+        },
+        "type": "#268bd2"
+
+    },
     "tokenColors": [
         {
             "settings": {
