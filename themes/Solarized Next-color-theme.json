@@ -64,13 +64,6 @@
             }
         },
         {
-            "name": "Variable Function",
-            "scope": "variable.function",
-            "settings": {
-                "foreground": "#b58900"
-            }
-        },
-        {
             "name": "Variable Language",
             "scope": [
                 "variable.parameter",
@@ -171,7 +164,11 @@
         },
         {
             "name": "Function name",
-            "scope": "entity.name.function",
+            "scope": [
+                "entity.name.function",
+                "variable.function",
+                "meta.block-level"
+            ],
             "settings": {
                 "foreground": "#b58900"
             }
