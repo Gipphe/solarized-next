@@ -1,5 +1,6 @@
 {
     "name": "Solarized Next",
+    "semanticHighlighting": true,
     "tokenColors": [
         {
             "settings": {
