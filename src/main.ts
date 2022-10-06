@@ -1,9 +1,13 @@
 import { hexifyTheme } from "./hexify.ts";
 import { theme } from "./solarized.ts";
 
-const __dirname = new URL(".", import.meta.url).pathname;
+const dest = Deno.args[0];
+if (!dest) {
+  console.log("Missing destination path.");
+  Deno.exit(1);
+}
 
 Deno.writeFileSync(
-  `${__dirname}/../themes/Solarized Next+-color-theme.json`,
+  dest,
   new TextEncoder().encode(JSON.stringify(hexifyTheme(theme), null, 4))
 );

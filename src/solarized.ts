@@ -20,7 +20,7 @@ const yellow = Color("#b58900");
 const magenta = Color("#d33682");
 
 // Extra colors
-const fadedBase021 = Color("#1ebcc530");
+const white = Color("#fff");
 const fadedBase01 = Color("#586e7534");
 const base04 = Color("#003847");
 const base041 = Color("#004052");
@@ -47,9 +47,10 @@ const lightishBlue = Color("#005a6f");
 const fadedLightishishBlue = Color("#004454aa");
 const modeFadedLightishishBlue = Color("#00445488");
 const brightCyan = Color("#1ebcc5");
-const fadedBrightCyan = Color("#1ebcc580");
-const veryFadedWhite = Color("#ffffff25");
-const mostFadedWhite = Color("#ffffff10");
+const fadedBrightCyan = brightCyan.alpha(0.5);
+const veryFadedBrightCyan = brightCyan.alpha(0.19);
+const veryFadedWhite = white.alpha(0.14);
+const mostFadedWhite = white.alpha(0.06);
 const gray1 = Color("#b2b2b3");
 const gray2 = Color("#f6f6f6");
 const base0301 = Color("#011b23");
@@ -978,7 +979,7 @@ export const theme: Theme<Color> = {
     "list.dropBackground": modeFadedLightishishBlue,
     "list.highlightForeground": brightCyan,
     "scrollbarSlider.activeBackground": brightCyan,
-    "scrollbarSlider.background": fadedBase021,
+    "scrollbarSlider.background": veryFadedBrightCyan,
     "scrollbarSlider.hoverBackground": fadedBrightCyan,
     // Editor
     "editor.background": base03,
