@@ -1,6 +1,7 @@
 # Solarized Next
 
-_Forked from [quantumkv's Solarized Next](https://github.com/quantumkv/solarized-next)_
+_Forked from
+[quantumkv's Solarized Next](https://github.com/quantumkv/solarized-next)_
 
 A dark solarized theme based on braver-solarized. Workbench styles included.
 
@@ -10,11 +11,12 @@ A dark solarized theme based on braver-solarized. Workbench styles included.
 2. Search for `Solarized Next`.
 3. Click **Install** to install it.
 4. Click **Reload** to reload the your editor
-5. File > Preferences > Color Theme > **Solarized Next** or change it in User Settings.
+5. File > Preferences > Color Theme > **Solarized Next** or change it in User
+   Settings.
 
 ## Screenshots
 
-#### Typescript/Javascript
+### Typescript/Javascript
 
 ![Preview](https://raw.githubusercontent.com/quantumkv/solarized-next/master/screenshots/screen1.png)
 
@@ -25,5 +27,5 @@ A dark solarized theme based on braver-solarized. Workbench styles included.
 
 ## Issues?
 
-Found Any Issues? Would like to make some suggestions? Or contribute some code changes?
-Then head over to the github repo.
+Found Any Issues? Would like to make some suggestions? Or contribute some code
+changes? Then head over to the github repo.

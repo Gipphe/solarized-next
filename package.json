@@ -21,7 +21,8 @@
     "dark",
     "next",
     "italic",
-    "workbench"
+    "workbench",
+    "semantic"
   ],
   "icon": "icon.png",
   "bugs": {
@@ -37,13 +38,14 @@
       {
         "label": "Solarized Next+",
         "uiTheme": "vs-dark",
-        "path": "./themes/Solarized Next-color-theme.json"
+        "path": "./themes/Solarized Next+-color-theme.json"
       }
     ]
   },
   "scripts": {
-    "build": "vsce package",
-    "publish": "npm run build && vsce publish"
+    "build": "make run",
+    "package": "npm run build && vsce package",
+    "publish": "npm run pakcage && vsce publish"
   },
   "devDependencies": {
     "vsce": "^2.11.0"
