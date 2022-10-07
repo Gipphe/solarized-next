@@ -27,7 +27,7 @@ Deno.test({
   fn() {
     const gen = getJSON("./themes/Solarized_Next+-color-theme.json");
     const original = getJSON("./themes/Solarized Next-color-theme.json");
-    assert.assertEquals(gen, original);
     assert.assertEquals(diff(original, gen), {});
+    assert.assertEquals(gen, original);
   },
 });
