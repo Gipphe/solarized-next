@@ -43,7 +43,7 @@
     ]
   },
   "scripts": {
-    "build": "make run",
+    "build": "make build",
     "package": "npm run build && vsce package",
     "publish": "npm run package && vsce publish"
   },
