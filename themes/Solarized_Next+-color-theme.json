@@ -135,6 +135,10 @@
             "foreground": "#CB4B16"
         },
         "variable": "#268BD2",
+        "variable.readonly": {
+            "fontStyle": "italic",
+            "foreground": "#859900"
+        },
         "keyword": "#859900",
         "function": "#B58900",
         "typeParameter": {
