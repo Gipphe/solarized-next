@@ -8,3 +8,7 @@ $(theme_dest): $(wildcard src/*)
 .PHONY: test
 test:
 	deno run --allow-read=$(themes_dir) test.ts
+
+.PHONY: clean
+clean:
+	rm -f *.vsix
