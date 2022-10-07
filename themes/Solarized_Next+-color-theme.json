@@ -156,7 +156,11 @@
             "fontStyle": "italic",
             "foreground": "#839496"
         },
-        "type": "#268BD2"
+        "type": "#268BD2",
+        "parameter:dockerfile": {
+            "fontStyle": "",
+            "foreground": "#839496"
+        }
     },
     "tokenColors": [
         {

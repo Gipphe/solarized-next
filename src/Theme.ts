@@ -22,6 +22,7 @@ export interface SemanticTokenColor<Color> {
 }
 
 export type FontStyle =
+  | ""
   | Italic
   | `${Italic} ${Bold}`
   | `${Italic} ${Bold} ${Strikethrough}`

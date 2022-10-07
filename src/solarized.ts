@@ -92,6 +92,10 @@ export const theme: Theme<Color> = {
       fontStyle: "italic",
     },
     type: blue,
+    "parameter:dockerfile": {
+      foreground: base0,
+      fontStyle: "",
+    },
   },
   tokenColors: [
     {
