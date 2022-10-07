@@ -14,15 +14,35 @@ export interface SemanticTokenColors<Color> {
 
 export interface SemanticTokenColor<Color> {
   foreground?: Color;
-  fontStyle?: string;
+  fontStyle?: FontStyle;
   italic?: boolean;
   bold?: boolean;
   underline?: boolean;
   strikethrough?: boolean;
 }
 
+export type FontStyle =
+  | Italic
+  | `${Italic} ${Bold}`
+  | `${Italic} ${Bold} ${Strikethrough}`
+  | `${Italic} ${Bold} ${Underline}`
+  | `${Italic} ${Strikethrough}`
+  | `${Italic} ${Strikethrough} ${Underline}`
+  | `${Italic} ${Underline}`
+  | Bold
+  | `${Bold} ${Strikethrough}`
+  | `${Bold} ${Strikethrough} ${Underline}`
+  | `${Bold} ${Underline}`
+  | Strikethrough
+  | `${Strikethrough} ${Underline}`
+  | Underline;
+type Italic = "italic";
+type Bold = "bold";
+type Strikethrough = "strikethrough";
+type Underline = "underline";
+
 export function isSemanticTokenColor<A>(
-  x: unknown,
+  x: unknown
 ): x is SemanticTokenColor<A> {
   if (x instanceof Color) {
     return false;
@@ -53,7 +73,7 @@ export interface ScopedTokenColors<Color> {
 }
 
 export interface TokenColorSettings<Color> {
-  fontStyle?: string;
+  fontStyle?: FontStyle;
   foreground?: Color;
 }
 
