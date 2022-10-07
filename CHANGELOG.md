@@ -6,6 +6,10 @@ file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how
 to structure this file.
 
+## [2.1.1]
+
+- Correct color of constants.
+
 ## [2.1.0]
 
 - Differentiate constants from regular variables.
