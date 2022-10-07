@@ -45,7 +45,7 @@
   "scripts": {
     "build": "make run",
     "package": "npm run build && vsce package",
-    "publish": "npm run pakcage && vsce publish"
+    "publish": "npm run package && vsce publish"
   },
   "devDependencies": {
     "vsce": "^2.11.0"
