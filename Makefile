@@ -7,4 +7,4 @@ $(theme_dest): $(wildcard src/*)
 
 .PHONY: test
 test:
-	deno run --allow-read=themes test.ts
+	deno run --allow-read=$(themes_dir) test.ts
