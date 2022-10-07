@@ -72,7 +72,7 @@ export const theme: Theme<Color> = {
     },
     variable: blue,
     "variable.readonly": {
-      foreground: green,
+      foreground: blue,
       fontStyle: "italic",
     },
     keyword: green,
