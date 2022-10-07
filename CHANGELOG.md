@@ -6,6 +6,10 @@ file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how
 to structure this file.
 
+## [2.1.2]
+
+- Fix missing alpha values on all non-opaque colors.
+
 ## [2.1.1]
 
 - Correct color of constants.
