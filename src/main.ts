@@ -9,5 +9,5 @@ if (!dest) {
 
 Deno.writeFileSync(
   dest,
-  new TextEncoder().encode(JSON.stringify(hexifyTheme(theme), null, 4))
+  new TextEncoder().encode(JSON.stringify(hexifyTheme(theme), null, 4)),
 );

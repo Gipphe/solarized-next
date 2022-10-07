@@ -42,7 +42,7 @@ type Strikethrough = "strikethrough";
 type Underline = "underline";
 
 export function isSemanticTokenColor<A>(
-  x: unknown
+  x: unknown,
 ): x is SemanticTokenColor<A> {
   if (x instanceof Color) {
     return false;
