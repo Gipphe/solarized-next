@@ -6,6 +6,10 @@ file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how
 to structure this file.
 
+## [2.0.2]
+
+- Build theme from TS.
+
 ## [2.0.1]
 
 - Fix incorrectly defined semantic colors.
