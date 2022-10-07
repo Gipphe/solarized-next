@@ -71,6 +71,10 @@ export const theme: Theme<Color> = {
       fontStyle: "italic",
     },
     variable: blue,
+    "variable.readonly": {
+      foreground: green,
+      fontStyle: "italic",
+    },
     keyword: green,
     function: yellow,
     typeParameter: {
