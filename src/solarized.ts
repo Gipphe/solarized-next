@@ -950,6 +950,13 @@ export const theme: Theme<Color> = {
         foreground: base0,
       },
     },
+    {
+      name: "Haskell: Keyword",
+      scope: ["keyword.operator.infix.haskell"],
+      settings: {
+        foreground: green,
+      },
+    },
   ],
   colors: {
     // Base

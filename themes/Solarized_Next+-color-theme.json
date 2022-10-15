@@ -1043,6 +1043,15 @@
             "settings": {
                 "foreground": "#839496"
             }
+        },
+        {
+            "name": "Haskell: Keyword",
+            "scope": [
+                "keyword.operator.infix.haskell"
+            ],
+            "settings": {
+                "foreground": "#859900"
+            }
         }
     ],
     "semanticHighlighting": true
