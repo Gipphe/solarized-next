@@ -6,6 +6,10 @@ file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how
 to structure this file.
 
+## [2.1.4]
+
+- Fix missing color on Haskell operators.
+
 ## [2.1.3]
 
 - Tweak coloring of parameters in Dockerfiles.
